@@ -1,0 +1,376 @@
+
+body{
+  width: 100%;
+  background-color: #e9ecef; /* Cor de funde e neutra para o contêiner */
+  display: block;
+}/* src/components/Header.css */
+/* Estilo da barra de navegação */
+
+
+
+
+ /*estrutura do texto terminada, começando cutumizacão da barra de navegação */
+
+
+
+
+
+.nav {
+  position: fixed; /* Fixa a barra de navegação na tela */
+  top: 0; /* Alinha a barra de navegação ao topo da página */
+  left: 0; /* Alinha a barra de navegação à esquerda da página */
+  width: 100%; /* Define a largura da barra de navegação para ocupar 100% da tela */
+  z-index: 1000; /* Garante que a barra de navegação fique acima de outros elementos na página */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0 20px;
+
+}
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav img{
+  width: 1; /* Defina o tamanho desejado para as imagens */
+  
+  margin-right: 1vw; /* Espaçamento entre as imagens (opcional) */
+  background-color: rgb(178, 181, 185);
+  border-style: outset;
+  border-width: 2px;
+  border-radius: 100%;
+}
+/* Estilo dos itens de navegação */
+.nav-item {
+  position: relative; /* Necessário para o efeito ::before */
+  
+}
+/* Lista de links de navegação */
+.nav-links {
+  list-style: none; /* Remove marcadores da lista */
+  margin: 0; /* Remove margens */
+  padding: 0; /* Remove preenchimento */
+  display: flex; /* Alinha os itens horizontalmente */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  flex-grow: 0; /* Permite que a lista ocupe o espaço disponível */
+}
+/* Estilo dos itens de navegação */
+.nav-links li {
+  position: relative; /* Necessário para o efeito ::after */
+}
+/* Estilo dos links de navegação */
+.nav-links li a {
+  
+  display: block; /* Torna o link um bloco clicável */
+  color: white; /* Cor do texto dos links */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 4vh 2vh; /* Espaçamento interno */
+  text-decoration: none; /* Remove sublinhado */
+  position: relative;/* Necessário para o box-shadow */
+  transition: color 0.3s ease; /* Transição suave para a cor do texto */
+}
+/* Adiciona um efeito de destaque ao passar o mouse */
+.nav-links li a:hover {
+  color: #f0f0f0; /* Muda a cor do texto ao passar o mouse */
+}
+/* Estilo para o efeito hover com destaque da região */
+.nav-links li a::before {
+  content: ''; /* Cria o pseudo-elemento */
+  position: absolute; /* Posiciona o pseudo-elemento */
+  top: -1%; /* Espaçamento acima do link */
+  left: -1%; /* Espaçamento à esquerda do link */
+  right: -1%; /* Espaçamento à direita do link */
+  bottom: -1%; /* Espaçamento abaixo do link */
+  border-radius: 4%; /* Bordas arredondadas para o efeito de destaque */
+  z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave para a cor de fundo e sombra */
+}
+
+/* Muda a cor de fundo e a sombra do pseudo-elemento ao passar o mouse */
+.nav-links li a:hover::before {
+  background-color: rgba(255, 255, 255, 0.4); /* Muda a cor de fundo ao passar o mouse */
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3); /* Muda a sombra ao passar o mouse */
+}
+/* Estilo dos ícones de redes sociais */
+
+.nav-icons {
+  display: flex; /* Alinha os ícones horizontalmente */
+  align-items: center; /* Alinha os ícones verticalmente ao centro */
+}
+/* Estilo dos ícones */
+.nav-icons img {
+  height: 24px; /* Define a altura dos ícones */
+  margin-left: 10px; /* Espaçamento entre os ícones */
+}
+
+
+
+
+
+ /*Barra de navegação terminada, começando cutumizacão da carta de apresentação */
+
+
+
+
+
+.carta{
+  border: 1px solid red;
+  width: fit-content;
+  height: auto;
+  display: flex; /* Alinha os itens horizontalmente */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  margin: auto;
+  justify-content: space-evenly;
+  padding: 5%;
+  flex-grow: 0; /* Permite que a lista ocupe o espaço disponível */
+}
+
+.perfil-box{
+  width: 50%;
+  height: 90%;
+  margin-top: 5%;
+  padding: 0 50px; /*Adiciona espaço ao redor da imagem*/
+} 
+
+/* Estilo da imagem */
+.perfil-box img {
+  width: 100%; /* 100% Faz a imagem ocupar toda a largura do contêiner */
+  height: 100%;
+  border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave à imagem */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave para transformações */
+}
+
+/* Estilo opcional para alterar a posição da imagem com efeito hover */
+.perfil-box img:hover {
+    transform: scale(1.02); /* Aumenta a imagem ligeiramente ao passar o mouse */
+}
+
+/* Estilos para o contêiner da carta de apresentação */
+.cover-letter-container {
+  display: flex; /* Utiliza flexbox para alinhar o conteúdo centralmente */
+  width: 50%;
+  height: 90%;
+  margin-top: 5%;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  box-sizing: border-box; /* Inclui padding e borda na largura e altura totais do elemento */
+  border: 1px solid blue;
+}
+
+/* Estilos para a carta de apresentação */
+.cover-letter {
+  background-color: #ffffff; /* Cor de fundo branca para a carta */
+  border-radius: 10px; /* Adiciona cantos arredondados mais sutis */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais pronunciada para maior profundidade */
+  padding: 2% 5%;
+  width: 100%;
+  color: #333333; /* Define a cor do texto */
+  font-family: 'Times New Roman', serif; /* Define uma fonte serifada para um toque mais formal */
+  line-height: 1.7; /* Define a altura da linha para melhor legibilidade e aparência formal */
+  box-sizing: border-box; /* Inclui padding e borda na largura e altura totais do elemento */
+  border-left: 5px solid #333; /* Adiciona uma borda à esquerda com uma cor de destaque azul */
+  border: 1px solid yellow;
+}
+
+/* Estilos para o título da carta de apresentação */
+.cover-letter-title {
+  font-size: 30px; /* Define o tamanho da fonte do título */
+  margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+  color: #333; /* Define a cor azul para o título */
+  font-family: 'Georgia', serif; /* Fonte elegante para o título */
+}
+
+/* Estilos para o texto da carta de apresentação */
+.cover-letter-text {
+  margin-bottom: 20px; /* Adiciona espaço abaixo de cada parágrafo */
+  text-align: justify; /* Justifica o texto para uma aparência formal e alinhada */
+  font-size: 1.2em /* Define o tamanho da fonte para uma leitura confortável */
+}
+
+
+
+
+
+ /*carta de apresentação terminada, começando cutumizacão do curriculo Vitae*/
+
+
+
+
+
+
+ .vitae-tudo {
+  font-family: Arial, sans-serif;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vitae-cabeçalio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+  border: 1px solid red;
+  
+}
+
+.pfc{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  
+}
+
+.cabeçalio-details h1 {
+ margin: 0;
+  font-size: 24px;
+  color: #333;
+  border: 1px solid rgb(0, 255, 55);
+}
+
+.header-details p {
+  margin: 0;
+  color: #777;
+  border: 1px solid yellow;
+}
+
+.contact-info,
+.objective,
+.education,
+.experience,
+.skills {
+  margin-bottom: 20px;
+  border: 1px solid blue;
+}
+
+.contact-info h2, /*div feita para selecionar os titulos do curriculo*/
+.objective h2,
+.experience h2,
+.skills h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  border: 1px solid rgb(0, 255, 55);
+}
+
+.contact-info p,
+.objective p,
+.education p,
+.experience p,
+.skills ul {
+  margin: 5px 0;
+  color: #555;
+}
+
+.job,
+.school {
+  margin-bottom: 15px;
+}
+
+.job p,
+.school p {
+  margin: 2px 0;
+  color: #555;
+}
+
+.skills ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skills li {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+
+
+ /*Curriculo Vitae, começando cutumizacão do Filtro*/
+
+
+
+ .filtro-container {
+  text-align: center;
+}
+
+.filtro-select {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.trabalhos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.trabalho-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trabalho-imagem {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.trabalho-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.trabalho-item:hover .trabalho-overlay {
+  opacity: 1;
+}
+
+.trabalho-titulo {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  
+  .cover-letter {
+    padding: 15px; /* Reduz ainda mais o padding em telas muito pequenas */
+  }
+
+  .cover-letter-title {
+    font-size: 24px; /* Reduz ainda mais o tamanho da fonte do título em telas muito pequenas */
+  }
+
+  .cover-letter-text {
+    font-size: 14px; /* Reduz ainda mais o tamanho da fonte do texto em telas muito pequenas */
+  }
+}
+
