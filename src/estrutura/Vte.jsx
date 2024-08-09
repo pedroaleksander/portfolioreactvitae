@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import pfc from  "./img/pfc.png"
+=======
+import pfc from "../img/pfc.png"
+>>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
 import '../App.css'
 
 

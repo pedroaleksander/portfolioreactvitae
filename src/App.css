@@ -204,7 +204,11 @@ body{
 
  .vitae-tudo {
   font-family: Arial, sans-serif;
+<<<<<<< HEAD
   width: 50%;
+=======
+  max-width: 800px;
+>>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
@@ -292,6 +296,7 @@ body{
 
 
 
+<<<<<<< HEAD
  /*Curriculo Vitae, começando cutumizacão do Filtro*/
 
 
@@ -349,6 +354,45 @@ body{
   font-weight: bold;
   text-align: center;
 }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
 
 
 

@@ -1,10 +1,17 @@
 // src/components/nav.js
 import React from 'react';
 import '../App.css'
+<<<<<<< HEAD
 import zap from "./img/zap.png"
 import link from "./img/link.jpeg"
 import git from "./img/git.png"
 import gmail from "./img/gmail.png"
+=======
+import zap from "../img/zap.png"
+import link from "../img/link.jpeg"
+import git from "../img/git.png"
+import gmail from "../img/gmail.png"
+>>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
 
 
 function nav() {

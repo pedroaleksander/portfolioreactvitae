@@ -2,8 +2,11 @@ import './App.css'
 import Nav from './estrutura/Nav'
 import Car from './estrutura/Car'
 import Vte from './estrutura/Vte'
+<<<<<<< HEAD
 import Técnico from './estrutura/Materias/Técnico/Técnico'
 import Mátematica from  './estrutura/Materias/Matemática/Mátematica'
+=======
+>>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
 function App() {
   return (
     <> 
@@ -23,12 +26,21 @@ function App() {
          
         </section>
         <section id="tc">
+<<<<<<< HEAD
           <h2></h2>
         <Técnico />        
         </section>
         <section id="mt">
           <h2> Mátematica </h2>
           <Mátematica />
+=======
+          <h2>Matéria 2</h2>
+          <p>Conteúdo da Matéria 2...</p>
+        </section>
+        <section id="mt">
+          <h2>Matéria 3</h2>
+          <p>Conteúdo da Matéria 3...</p>
+>>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
         </section>
         <section id="nt">
           <h2>Matéria 4</h2>
