@@ -1,12 +1,8 @@
 import React from 'react';
 import '../App.css'
-<<<<<<< HEAD
 import perfil from "./img/perfil.png"
-=======
-import perfil from "../img/perfil.png"
->>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
 
-function nav() {
+function car() {
   return (
    <>
    <div className='carta'>
@@ -49,4 +45,4 @@ function nav() {
   );
 }
 
-export default nav;
+export default car;

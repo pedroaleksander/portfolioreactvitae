@@ -204,11 +204,7 @@ body{
 
  .vitae-tudo {
   font-family: Arial, sans-serif;
-<<<<<<< HEAD
   width: 50%;
-=======
-  max-width: 800px;
->>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
@@ -296,24 +292,27 @@ body{
 
 
 
-<<<<<<< HEAD
  /*Curriculo Vitae, começando cutumizacão do Filtro*/
 
 
 
- .filtro-container {
-  text-align: center;
+ .filtro-container {/*alinha tudo ao centro*/
+  padding: 20px;
+  text-align: center; 
 }
 
-.filtro-select {
+.filtro-select {/*opcoes do botao do trimestre*/
   margin-bottom: 20px;
+  width: 200px;
   padding: 10px;
-  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-.trabalhos-grid {
+.trabalhos-grid {/*ajusta as opcoes do tamanhos das divs de cd trabalho*/
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  height: 300px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
@@ -326,11 +325,11 @@ body{
 
 .trabalho-imagem {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
-.trabalho-overlay {
+.trabalho-overlay { /*altera somente o efito ao passar o mouse na imagem*/
   position: absolute;
   top: 0;
   left: 0;
@@ -350,49 +349,10 @@ body{
 }
 
 .trabalho-titulo {
-  font-size: 18px;
+  font-size: 13px;
   font-weight: bold;
   text-align: center;
 }
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> fa0a50ebab5156efa97e297343f76d0f8ab917ad
 
 
 
