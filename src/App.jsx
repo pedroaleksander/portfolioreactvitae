@@ -1,8 +1,9 @@
+import React from 'react'
 import './App.css'
 import Nav from './estrutura/Nav'
 import Car from './estrutura/Car'
 import Vte from './estrutura/Vte'
-import Técnico from './estrutura/Materias/Técnico/Técnico'
+import Tecnico from './estrutura/Materias/Tecnico/Tecnico'
 import Mátematica from  './estrutura/Materias/Matematica/Matematica'
 function App() {
   return (
@@ -24,10 +25,9 @@ function App() {
         </section>
         <section id="tc">
           <h2></h2>
-        <Técnico />        
+        <Tecnico />        
         </section>
         <section id="mt">
-          <h2> Mátematica </h2>
           <Mátematica />
         </section>
         <section id="nt">
