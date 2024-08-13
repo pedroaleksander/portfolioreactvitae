@@ -1,13 +1,17 @@
 import React from 'react'
 import Filtro from '../../Filtro'
 import kanban from '../../img/kanban.png'
+import logico from '../../img/logico.png'
+import consultorio from '../../img/consultorio.png'
+import normalizacao from '../../img/normalizacao.png'
+import autafid from '../../img/autafid.png'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 const Materia2 = () => {
   const trabalhos = {
     'primeiro-trimestre': [
-      { id: 'T1-1', titulo:'S.A - Wireframe de Alta Fidelidade', imagem: '', link: '' },
+      { id: 'T1-1', titulo:'S.A - Wireframe de Alta Fidelidade', imagem: autafid, link: '' },
       { id: 'T1-2', titulo:'S.A - Regra de Negócio', imagem: '', link: '' },
       { id: 'T1-3', titulo:'Calculadora de Horas em react', imagem: '', link: './calculadora/calculadora' }, /*falta arrumar o diretorio para ao clicar redirecioner para a calculadora*/ 
       { id: 'T1-4', titulo:'API - GitHub', imagem: '', link: '' },
@@ -19,12 +23,11 @@ const Materia2 = () => {
   ],
   'segundo-trimestre': [
 
-    { id: 'T2-1', titulo: 'Sala de Aula Invertida - Metodologias de Desenvolvimento', imagem: kanban,  link: 'https://www.canva.com/design/DAGNpwl1lEQ/Kdb2xOV3Gdx22-X7oqqyOQ/edit?utm_content=DAGNpwl1lEQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'  },
-    { id: 'T2-2', titulo:'Lista de Exercícios - Modelo Lógico', imagem: '', link: '' },
-    { id: 'T2-3', titulo: 'Modelagem Sistema de Gestão de Consultório', imagem: '',  link: ''  },
-    { id: 'T2-4', titulo: 'Filme Quebrando a Banca', imagem: '',  link: ''  },
-    { id: 'T2-5', titulo: 'Pesquisa Normalização de dados', imagem: '',  link: ''  }, 
-    { id: 'T2-6', titulo: 'Projeto Biblioteca', imagem: '',  link: ''  }, 
+    { id: 'T2-1', titulo: 'Sala de Aula Invertida - Metodologias de Desenvolvimento', imagem: kanban,  link: 'https://www.canva.com/design/DAGNpwl1lEQ/Kdb2xOV3Gdx22-X7oqqyOQ/edit?utm_content=DAGNpwl1lEQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'  },                
+    { id: 'T2-2', titulo:'Lista de Exercícios - Modelo Lógico, Desenvolvi o modelo lógico de um hotel, estruturando dados essenciais para garantir a eficiência do sistema e a organização das operações. Nesse processo, apliquei as habilidades H1 e H2. ', imagem: logico, link: 'https://docs.google.com/presentation/d/1-bd2lWfWvKDxuhcFYLseMhLiewmx-r0GPpdsgq1cHbw/edit?usp=sharing' },
+    { id: 'T2-3', titulo: 'Modelagem Sistema de Gestão de Consultório Desenvolvi o modelo lógico e conceitual de um consultório médico, organizando dados como informações de pacientes, médicos e consultas para assegurar a eficiência e a organização do sistema. Esse trabalho me permitiu aplicar as habilidades H1 e H2.', imagem: consultorio,  link: 'https://www.canva.com/design/DAGNskds2JY/D93w2cjOcJLU5JyJ1FAT2g/edit?utm_content=DAGNskds2JY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'  },
+    { id: 'T2-4', titulo: 'Pesquisa Normalização de dados', imagem: normalizacao,  link: 'https://docs.google.com/document/d/1yE4Xk7xk9WcjxVyZEJoUtUyAlU7eXtxBx59UUHwWX5g/edit?usp=sharing'  }, 
+    { id: 'T2-5', titulo: 'Projeto Biblioteca', imagem: null,  link: ''  }, 
   ],
   'terceiro-trimestre': [
     

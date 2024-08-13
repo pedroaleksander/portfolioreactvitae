@@ -8,7 +8,7 @@ import tesouro from '../../img/tesouro.png'
 const Materia1 = () => {
   const trabalhos = {
     'primeiro-trimestre': [
-      { id: 'T1-1', imagem: tesouro, link: ' https://drive.google.com/file/d/1tajyYscf6OZ37LgI4nE5jYvYeI7WDZSo/view?usp=classroom_web&authuser=0' , titulo: ' Caça ao Tesouro Nesta aventura exploraremos a linguagem algébrica enquanto desvendamos enigmas e pistas para encontrar um tesouro escondido. Conectando a matemática a uma historia de aventura. Em minha opinião, achei uma abordagem muito criativa do professor para ensinar, alem de ser divertida, também achei extremamente produtiva para aprender sobre angúlos, pois mtivemos de utilizar bussúla e transferidor. Competência e Habilidade: C2; H5 & H16' },
+      { id: 'T1-1', imagem: tesouro, link: 'https://docs.google.com/presentation/d/1Y5w_e5sZLv8gQxFyP292jFLwlENCrObIQczgYQRwAus/edit?usp=sharing' , titulo: ' Caça ao Tesouro Nesta aventura exploraremos a linguagem algébrica enquanto desvendamos enigmas e pistas para encontrar um tesouro escondido. Conectando a matemática a uma historia de aventura. Em minha opinião, achei uma abordagem muito criativa do professor para ensinar, alem de ser divertida, também achei extremamente produtiva para aprender sobre angúlos, pois mtivemos de utilizar bussúla e transferidor. Competência e Habilidade: C2; H5 & H16' },
      
   ],
   'segundo-trimestre': [
