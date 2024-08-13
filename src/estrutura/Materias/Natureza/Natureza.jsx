@@ -1,11 +1,6 @@
 import React from 'react'
 import Filtro from '../../Filtro'
 import kanban from '../../img/kanban.png'
-import logico from '../../img/logico.png'
-import consultorio from '../../img/consultorio.png'
-import normalizacao from '../../img/normalizacao.png'
-import autafid from '../../img/autafid.png'
-import regras from '../../img/regras.jpg'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
