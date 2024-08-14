@@ -5,6 +5,7 @@ import Car from './estrutura/Car'
 import Vte from './estrutura/Vte'
 import Tecnico from './estrutura/Materias/Tecnico/Tecnico'
 import Mátematica from  './estrutura/Materias/Matematica/Matematica'
+import Natureza from './estrutura/Materias/Natureza/Natureza'
 function App() {
   return (
     <> 
@@ -31,8 +32,10 @@ function App() {
           <Mátematica />
         </section>
         <section id="nt">
-          <h2>Matéria 4</h2>
-          <p>Conteúdo da Matéria 4...</p>
+          <Natureza/>
+        </section>
+        <section id="hm">
+          
         </section>
         <section id="lg">
           <h2>Matéria 5</h2>

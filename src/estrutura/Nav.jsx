@@ -16,7 +16,8 @@ function nav() {
           <li><a href="#vt">Currículo Vitae</a></li>
           <li><a href="#tc">Técnico</a></li>
           <li><a href="#mt">Matemática</a></li>
-          <li><a href="#nt">Humanas</a></li>
+          <li><a href="#nt">Natureza</a></li>
+          <li><a href="#hm">Humanas</a></li>
           <li><a href="#lg">Linguagens</a></li>
           <li><a href="#pp">PPE</a></li>
           <li><a href="#pt">Primeiros Portfólio</a></li> 

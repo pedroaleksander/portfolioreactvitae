@@ -1,29 +1,30 @@
 import React from 'react'
 import Filtro from '../../Filtro'
-import kanban from '../../img/kanban.png'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import evolucao from '../../img/evolucao.png'
+import circuito from '../../img/circuito.png'
+import pedtroleo from '../../img/petroleo.png'
+import revisao from '../../img/revisao.png'
+import ecologia from '../../img/ecologia.png'
+import copinho from '../../img/copinho.png'
+import mapamental from '../../img/mapamental.png'
 
-
-const Materia2 = () => {
+const Materia3 = () => {
   const trabalhos = {
     'primeiro-trimestre': [
-      { id: 'T1-1', titulo:'S.A - Wireframe de Alta Fidelidade, Desenvolvi um projeto Warframe de um site de alta fidelidade para um lar de idosos, organizando as funcionalidades e a interface para garantir uma navegação intuitiva e eficiente. Nesse processo, apliquei as habilidades H3, H5 e H8.', imagem: autafid, link: 'https://www.figma.com/proto/D7dPtkzVaOhkISQ3cGpUXg/Wireframe-Alta-Fidelidade-SA?node-id=1105-1912&t=SowCMJoyrAFN1ZdW-1&scaling=scale-down&content-scaling=fixed&page-id=292%3A11637&starting-point-node-id=1105%3A1912&share=1' },
-      { id: 'T1-2', titulo:'S.A - Regra de Negócio', imagem: regras, link: 'https://docs.google.com/document/d/1kRe0cl5PQmwFDuKNH5SI9A8CIaDzs8_xUTUm9tBi0x0/edit?usp=sharing' },
-      { id: 'T1-3', titulo:'Calculadora de Horas em react', imagem: '', link: './calculadora/calculadora' }, /*falta arrumar o diretorio para ao clicar redirecioner para a calculadora*/ 
-      { id: 'T1-4', titulo:'API - GitHub', imagem: '', link: '' },
-      { id: 'T1-5', titulo:'Trabalho API', imagem: '', link: '' },
-      { id: 'T1-6', titulo:'Cenário 1, atividade 1, Implantação de um Sistema Para Gerenciamento de Conteúdo - CMS', imagem: '', link: '' },
-      { id: 'T1-7', titulo:'S.A - Regra de Negócio', imagem: '', link: '' },
-      
+      { id: 'T1-1', titulo:'Meme Evolucionismo. Realizei uma atividade divertida que misturou a teoria do evolucionismo de Darwin com um "meme" escolhido por cada aluno relacionado ao tema, criando uma abordagem criativa que foi a minha favorita até agora. Durante essa atividade, apliquei a competência C2 e a habilidade H11.', imagem: evolucao, link: 'https://www.canva.com/design/DAF-u2Z9TjE/3mrMNAWYpBWt_z6oM3F95g/edit?utm_content=DAF-u2Z9TjE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' },
+      { id: 'T1-2', titulo:'Circuitos. Nessa atividade, aprendemos na prática como funcionam cabos, resistores e energia, montando circuitos e anotando seus valores para responder ao relatório. Gostei muito de poder aplicar na prática, o que foi muito mais envolvente do que apenas estudar a teoria. Durante essa atividade, apliquei as competências C2 e C6, e as habilidades H6 e H34.', imagem: circuito, link: 'https://docs.google.com/document/d/174X7VauOqvvzMTUL-ZVPtQYpN3bFfiPTXYayT6ois5A/edit?usp=sharing' },
+      { id: 'T1-3', titulo:'Elementos Quimicos. Em dupla, pesquisamos sobre carbono, petróleo e hidrocarbonetos, o que ajudou a compreender melhor o assunto. Trabalhando juntos, conseguimos tirar dúvidas e finalizar mais rápido. Durante essa atividade, desenvolvi a competência C1 e as habilidades H3, H4 e H5.', imagem: pedtroleo, link: null },
+      { id: 'T1-4', titulo:'Genética e Suas Definições. Nessa atividade, fizemos uma lista de conceitos sobre genética e suas definições, o que considero a forma mais fácil de fixar conteúdo. Durante essa atividade, desenvolvi a competência C2 e a habilidade H11.', imagem: revisao, link: 'https://docs.google.com/presentation/d/1ADUSol44wnByTTIAT6P7WBX5IUQlL9RRm1u0nBKGTXg/edit?usp=sharing' },
+        
       
   ],
   'segundo-trimestre': [
 
-    { id: 'T2-1', titulo: 'Sala de Aula Invertida - Metodologias de Desenvolvimento', imagem: kanban,  link: 'https://www.canva.com/design/DAGNpwl1lEQ/Kdb2xOV3Gdx22-X7oqqyOQ/edit?utm_content=DAGNpwl1lEQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'  },                
-    { id: 'T2-2', titulo:'Lista de Exercícios - Modelo Lógico, Desenvolvi o modelo lógico de um hotel, estruturando dados essenciais para garantir a eficiência do sistema e a organização das operações. Nesse processo, apliquei as habilidades H1 e H2. ', imagem: logico, link: 'https://docs.google.com/presentation/d/1-bd2lWfWvKDxuhcFYLseMhLiewmx-r0GPpdsgq1cHbw/edit?usp=sharing' },
-    { id: 'T2-3', titulo: 'Modelagem Sistema de Gestão de Consultório Desenvolvi o modelo lógico e conceitual de um consultório médico, organizando dados como informações de pacientes, médicos e consultas para assegurar a eficiência e a organização do sistema. Esse trabalho me permitiu aplicar as habilidades H1 e H2.', imagem: consultorio,  link: 'https://www.canva.com/design/DAGNskds2JY/D93w2cjOcJLU5JyJ1FAT2g/edit?utm_content=DAGNskds2JY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'  },
-    { id: 'T2-4', titulo: 'Pesquisa Normalização de dados', imagem: normalizacao,  link: 'https://docs.google.com/document/d/1yE4Xk7xk9WcjxVyZEJoUtUyAlU7eXtxBx59UUHwWX5g/edit?usp=sharing'  }, 
-    { id: 'T2-5', titulo: 'Projeto Biblioteca', imagem: null,  link: ''  }, 
+    { id: 'T2-1', titulo:'Relações Ecologicas. Em grupo, trabalhamos sobre relações ecológicas, explorando e analisando diferentes interações entre organismos. Esse trabalho foi fundamental para aprofundar nossa compreensão do tema. Durante a atividade, desenvolvi a competência C3 e as habilidades H15 e H18.', imagem: ecologia, link: '' }, 
+    { id: 'T2-2', titulo:'Cartaz. Criei um cartaz de conscientização sobre a não utilização de copos plásticos, destacando a importância de reduzir o uso de materiais descartáveis. Durante essa atividade, desenvolvi a competência C6 e a habilidade H35. ', imagem: copinho, link: 'https://www.canva.com/design/DAGJ4xe4cF8/KSEVSBiC8FRYNLu-bX3UDA/edit?utm_content=DAGJ4xe4cF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' }, 
+    { id: 'T2-3', titulo:'', imagem: mapamental, link: '' }, 
+    { id: 'T2-4', titulo:'', imagem: evolucao, link: '' }, 
+    { id: 'T2-5', titulo:'', imagem: evolucao, link: '' }, 
   ],
   'terceiro-trimestre': [
     
@@ -38,7 +39,7 @@ const Materia2 = () => {
 
     <div>
       <Filtro 
-        tituloPagina="Trabalhos do Técnico"
+        tituloPagina="Trabalhos doe Natureza"
         opcoesTrimestre={[
           { value: 'primeiro-trimestre', label: 'Primeiro Trimestre' },
           { value: 'segundo-trimestre', label: 'Segundo Trimestre' },
@@ -54,4 +55,4 @@ const Materia2 = () => {
   );
 };
 
-export default Materia2;
+export default Materia3;
