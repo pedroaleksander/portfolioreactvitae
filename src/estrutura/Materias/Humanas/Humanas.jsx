@@ -17,7 +17,7 @@ const Materia4 = () => {
   'segundo-trimestre': [
     { id: 'T2-1', imagem: linhadotempo, titulo: 'Linha do Tempo da Segunda Guerra.Em grupo, criamos um mapa mental sobre filmes da Segunda Guerra Mundial para entender melhor o contexto histórico, foi uma atividade muito criativa que me possibílitou melhor intendimento da linha do tempo dos acontecimentos. Desenvolvi a competência C6 e as habilidades H36, H39, H40, C2, H7 e H8. ', link: 'https://lucid.app/lucidspark/33fd455b-df4e-404e-a7d7-929aef3c76e7/edit?viewport_loc=1148%2C1376%2C4949%2C2239%2C0_0&invitationId=inv_6887c447-03a4-426a-87ce-ac393722b342' },
     { id: 'T2-2', imagem: jornal, titulo: 'Jornal a Grande Guerra, Elaborei um jornal fictício sobre Berlim após a destruição da Alemanha na Grande Guerra, abordando a situação e a reconstrução do país. A atividade foi divertida e educativa, pois exigiu uma pesquisa aprofundada sobre o tema. Desenvolvi a competência C2 e as habilidades H10, C6 e H39.', link: 'https://www.canva.com/design/DAGB1gScVSE/UwszC0hYPvxJn8FEw0ZGCQ/edit?utm_content=DAGB1gScVSE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'  },
-    { id: 'T2-3', imagem: null, titulo: '', link: ''  },
+    
 
 
     
