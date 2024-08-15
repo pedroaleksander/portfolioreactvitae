@@ -21,7 +21,7 @@ const Materia2 = () => {
       { id: 'T1-3', titulo:'Calculadora de Horas em react. Desenvolvi uma calculadora em React, estruturando o código para garantir a funcionalidade e a usabilidade. Durante essa atividade, apliquei a habilidade H. ' , imagem: calculadora, link: 'https://github.com/pedroaleksander/calculadoraReact.git' }, /*falta arrumar o diretorio para ao clicar redirecioner para a calculadora*/ 
       { id: 'T1-4', titulo:'API - GitHub. Desenvolvi uma API que busca perfis no GitHub, estruturando as funcionalidades para garantir a eficiência na recuperação de dados. Durante essa atividade, apliquei a habilidade H.', imagem: api, link: 'https://github.com/pedroaleksander/ApiGithub.git' },
       { id: 'T1-5', titulo:'Trabalho API. Desenvolvi, em sala de aula, uma API que busca CEP, estruturando as funcionalidades para garantir uma busca rápida e precisa. Durante essa atividade, apliquei as habilidades H3, H4, H5, H6, H9 e H10.', imagem: apicep, link: 'https://github.com/pedroaleksander/apicep.git' },
-      { id: 'T1-6', titulo:'Cenário 1, atividade 1, Implantação de um Sistema Para Gerenciamento de Conteúdo - CMS', imagem: analise, link: 'https://docs.google.com/document/d/1ZYUHdmIEHAgsprpo8WLXD2ZwIQiPVgV0KhT5S3uQzZw/edit?usp=sharing' },
+      { id: 'T1-6', titulo:'Implantação de um Sistema Para Gerenciamento de Conteúdo - CMS. Pesquisei e trabalhei na implantação de sistemas e gerenciamento de conteúdos, focando na otimização do controle de informações. Durante essa atividade, desenvolvi a competência C e a habilidade H.', imagem: analise, link: 'https://docs.google.com/document/d/1ZYUHdmIEHAgsprpo8WLXD2ZwIQiPVgV0KhT5S3uQzZw/edit?usp=sharing' },
      
       
       

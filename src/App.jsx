@@ -6,6 +6,7 @@ import Vte from './estrutura/Vte'
 import Tecnico from './estrutura/Materias/Tecnico/Tecnico'
 import Mátematica from  './estrutura/Materias/Matematica/Matematica'
 import Natureza from './estrutura/Materias/Natureza/Natureza'
+import Humanas from './estrutura/Materias/Humanas/Humanas'
 function App() {
   return (
     <> 
@@ -35,7 +36,7 @@ function App() {
           <Natureza/>
         </section>
         <section id="hm">
-          
+        <Humanas/>
         </section>
         <section id="lg">
           <h2>Matéria 5</h2>
