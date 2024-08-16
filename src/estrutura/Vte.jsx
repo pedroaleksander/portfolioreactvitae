@@ -5,6 +5,7 @@ import '../App.css'
 
 function Vit() {
   return (
+   <div className="caixa-vitae">
     <div className="vitae-tudo">
       <header className="vitae-cabeçalio">
 
@@ -62,6 +63,7 @@ function Vit() {
         </ul>
       </section>
     </div>
+  </div>
   );
 }
 

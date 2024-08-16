@@ -10,8 +10,8 @@ import gmail from "./img/gmail.png"
 function nav() {
   return (
  <nav className="nav">
-      <div className="logo">Portfólio</div>
         <ul className="nav-links">
+          <li><a href="#pt" className="logo">Portfólio</a></li>
           <li><a href="#ct">Carta de Apresentação</a></li>
           <li><a href="#vt">Currículo Vitae</a></li>
           <li><a href="#tc">Técnico</a></li>
