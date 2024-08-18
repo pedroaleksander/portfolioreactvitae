@@ -20,7 +20,7 @@ const Materia3 = () => {
   ],
   'segundo-trimestre': [
 
-    { id: 'T2-1', titulo:'Relações Ecologicas. Em grupo, trabalhamos sobre relações ecológicas, explorando e analisando diferentes interações entre organismos. Esse trabalho foi fundamental para aprofundar nossa compreensão do tema. Durante a atividade, desenvolvi a competência C3 e as habilidades H15 e H18.', imagem: ecologia, link: '' }, 
+    { id: 'T2-1', titulo:'Relações Ecologicas. Em grupo, trabalhamos sobre relações ecológicas, explorando e analisando diferentes interações entre organismos. Esse trabalho foi fundamental para aprofundar nossa compreensão do tema. Durante a atividade, desenvolvi a competência C3 e as habilidades H15 e H18.', imagem: ecologia, link: 'https://www.canva.com/design/DAGOJdm2Q9A/5vQnIr-C_BYtsWRGl5iTuw/edit?utm_content=DAGOJdm2Q9A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' }, 
     { id: 'T2-2', titulo:'Cartaz. Criei um cartaz de conscientização sobre a não utilização de copos plásticos, destacando a importância de reduzir o uso de materiais descartáveis. Durante essa atividade, desenvolvi a competência C6 e a habilidade H35. ', imagem: copinho, link: 'https://www.canva.com/design/DAGJ4xe4cF8/KSEVSBiC8FRYNLu-bX3UDA/edit?utm_content=DAGJ4xe4cF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' }, 
     { id: 'T2-3', titulo:'Elaborei um mapa mental sobre os componentes dos circuitos elétricos, facilitando a visualização e o entendimento do tema. Durante essa atividade, desenvolvi a competência C6 e a habilidade H35.', imagem: mapamental, link: null }, 
     { id: 'T2-4', titulo:'Pesquisa social. Realizei, como atividade escolhida de autoria, uma pesquisa social onde abordamos características genéticas de cada estudante, como a predisposição à calvície. Durante essa atividade, desenvolvi a competência C2 e a habilidade H11.', imagem: pesquisa, link: 'https://docs.google.com/document/d/17PZjilVdhPsPs4ERY9nqndIMiTHnai3LSRRzkGHMU8w/edit?usp=sharing' }, 
@@ -37,9 +37,10 @@ const Materia3 = () => {
     <>
 
 
-    <div>
+    <div className='naturezatudo'>
+     
       <Filtro 
-        tituloPagina="Trabalhos doe Natureza"
+        tituloPagina="Trabalhos de Natureza"
         opcoesTrimestre={[
           { value: 'primeiro-trimestre', label: 'Primeiro Trimestre' },
           { value: 'segundo-trimestre', label: 'Segundo Trimestre' },

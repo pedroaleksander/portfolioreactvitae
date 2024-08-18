@@ -27,9 +27,9 @@ const Materia3 = () => {
     <>
 
 
-    <div>
+    <div className='linguagenstudo'>
       <Filtro 
-        tituloPagina="Trabalhos doe Natureza"
+        tituloPagina="Trabalhos de Linguagens"
         opcoesTrimestre={[
           { value: 'primeiro-trimestre', label: 'Primeiro Trimestre' },
           { value: 'segundo-trimestre', label: 'Segundo Trimestre' },

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../../App.css'
 import Filtro from '../../Filtro'
 import kanban from '../../img/kanban.png'
 import logico from '../../img/logico.png'
@@ -10,7 +11,7 @@ import api from '../../img/api.png'
 import apicep from '../../img/apicep.png'
 import calculadora from '../../img/calculadora.png'
 import analise from '../../img/analise.png'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 
 const Materia2 = () => {
@@ -45,7 +46,8 @@ const Materia2 = () => {
     <>
 
 
-    <div>
+    
+     <div className='tecnico-tudo'>
       <Filtro 
         tituloPagina="Trabalhos do Técnico"
         opcoesTrimestre={[
@@ -54,11 +56,11 @@ const Materia2 = () => {
           { value: 'terceiro-trimestre', label: 'Terceiro Trimestre' },
         ]}
         trabalhos={trabalhos}
-       
       />
     </div>
+  
 
-
+   
     </>
   );
 };

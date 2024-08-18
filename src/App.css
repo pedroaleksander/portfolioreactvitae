@@ -1,11 +1,15 @@
 
 body{
   width: 100%;
-  background-color: #efe9ee; /* Cor de funde e neutra para o contêiner */
+  background-color: #000000; /* Cor de funde e neutra para o contêiner */
   display: block;
+  
 }/* src/components/Header.css */
-/* Estilo da barra de navegação */
-
+ .App{
+  width:100vw;
+  height: auto;
+  overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do contêiner */
+ }
 
 
 
@@ -257,6 +261,7 @@ object-fit: cover; /* Garante que a imagem preencha o container */
 
   .caixa-vitae{
     background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/8692.jpg");
+    padding-top: 50%;
     padding: 3%;
     width: fit-content;
     height: auto;
@@ -363,8 +368,11 @@ object-fit: cover; /* Garante que a imagem preencha o container */
 
 
  .filtro-container {/*alinha tudo ao centro*/
+  width: 100%;
+  height: auto;
   padding: 20px;
   text-align: center; 
+  position: relative;
 }
 
 .filtro-select {/*opcoes do botao do trimestre*/
@@ -372,15 +380,15 @@ object-fit: cover; /* Garante que a imagem preencha o container */
   width: 200px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccca7;
 }
 
 
 
 .trabalhos-grid {/*ajusta as opcoes do tamanhos das divs de cd trabalho*/
   display: grid;
-  height: 300px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  height: auto;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 2fr));
   gap: 20px;
 }
 
@@ -389,6 +397,14 @@ object-fit: cover; /* Garante que a imagem preencha o container */
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  background-color: #f0f0f0; /* Apenas para visualização */
+  aspect-ratio: 1; /* Mantém uma proporção 1:1 (quadrado) */
+  display: flex;
+  align-items: center;
+  
+ 
+ 
 }
 
 .trabalho-imagem {
@@ -426,18 +442,163 @@ object-fit: cover; /* Garante que a imagem preencha o container */
 
 
 
- /*Filtro terminado, começando cutumizacão do tecnico*/
+ /*Filtro terminado, começando cutumizacão das máterias*/
 
 
 
 
 
+.tecnico-tudo{
+  background-image: url("https://wallpapercave.com/wp/wp3826438.jpg");
+  padding: 15%;
+  padding-top: 20%;
+  width: auto;
+  height: 900px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-grow: 0; /* Permite que a lista ocupe o espaço disponível */
+  background-size: cover; /* Faz a imagem ocupar todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem dentro do contêiner */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  
+}
 
-
-
-
+.tecnico-tudo h1{
+font-size: 4em; /* Tamanho maior para dar ênfase */
+  color: #ffdd57; /* Um tom dourado que contrasta bem com o azul */
+  font-family: 'Georgia', serif; /* Estilo de fonte com toque clássico */
+  text-shadow: 3px 3px 15px rgba(0, 0, 50, 0.7), 0px 0px 10px rgba(255, 255, 255, 0.6); /* Efeito de brilho e profundidade */
+  letter-spacing: 3px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 50, 2.7); /* Adiciona brilho ao redor */
  
+  }
 
+.matetaticatudo{
+  background-image: url("https://i.redd.it/ugtza7ly9oz41.jpg");
+  padding: 10%;
+  padding-top: 20%;
+  width: auto;
+  height: 900px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-grow: 0; /* Permite que a lista ocupe o espaço disponível */
+  background-size: cover; /* Faz a imagem ocupar todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem dentro do contêiner */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  
+}
+.matetaticatudo h1{
+  color: #ffffff; /* Cor branca para o texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 3.8); /* Adiciona uma sombra sutil ao texto */
+  margin-top: 20vh; /* Espaçamento superior para centralizar verticalmente */
+  font-family: 'Arial', sans-serif; /* Estilo de fonte */
+  letter-spacing: 2px; /* Aumenta o espaçamento entre letras para um toque elegante */
+
+}
+
+.naturezatudo{
+  background-image: url("https://th.bing.com/th/id/R.85088012157868dd2f951d0d70f10dce?rik=sJVwtlfM7DSHJA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fnM53yne.jpg&ehk=tO6Zc2H7S0v5hKZKDRvyE3Va6etGWpxH2TCNtzXBvyQ%3d&risl=&pid=ImgRaw&r=0");
+  padding: 10%;
+  padding-top: 20%;
+  width: auto;
+  height: 900px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-grow: 0; /* Permite que a lista ocupe o espaço disponível */
+  background-size: cover; /* Faz a imagem ocupar todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem dentro do contêiner */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  
+}
+.naturezatudo h1{
+  color: #ffffff; /* Cor branca para o texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 3.8); /* Adiciona uma sombra sutil ao texto */
+  margin-top: 20vh; /* Espaçamento superior para centralizar verticalmente */
+  font-family: 'Arial', sans-serif; /* Estilo de fonte */
+  letter-spacing: 2px; /* Aumenta o espaçamento entre letras para um toque elegante */
+
+
+}
+
+.humanastudo{
+  background-image: url("https://th.bing.com/th/id/R.f8ac410470cdf7bf4c64865bc19d2140?rik=y4W4lWbaT0H7Mw&pid=ImgRaw&r=0");
+  padding: 10%;
+  padding-top: 20%;
+  width: auto;
+  height: 900px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-grow: 0; /* Permite que a lista ocupe o espaço disponível */
+  background-size: cover; /* Faz a imagem ocupar todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem dentro do contêiner */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+
+} 
+.humanastudo h1{
+  color: #ffffff; /* Cor branca para o texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 3.8); /* Adiciona uma sombra sutil ao texto */
+  margin-top: 20vh; /* Espaçamento superior para centralizar verticalmente */
+  font-family: 'Arial', sans-serif; /* Estilo de fonte */
+  letter-spacing: 2px; /* Aumenta o espaçamento entre letras para um toque elegante */
+
+}
+.linguagenstudo{
+  background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2022/02/rdr-2-poker-game-smart.jpg");
+  padding: 10%;
+  padding-top: 20%;
+  width: auto;
+  height: 900px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-grow: 0; /* Permite que a lista ocupe o espaço disponível */
+  background-size: cover; /* Faz a imagem ocupar todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem dentro do contêiner */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+
+}
+
+.linguagenstudo h1{
+  font-size: 4em; /* Tamanho grande do texto para destaque */
+  font-weight: 400; /* Negrito aplicado diretamente */
+  text-align: center; /* Centraliza o texto */
+  color: transparent; /* Torna o texto transparente para aplicar o gradiente */
+  font-weight: bold; /* Deixa o texto em negrito */
+  background: linear-gradient(135deg, #fffffe, #f3f2ef); /* Gradiente em tons vivos de amarelo */
+  -webkit-background-clip: text; /* Aplica o gradiente somente ao texto */
+  background-clip: text; /* Aplica o gradiente somente ao texto */
+  padding: 20px; /* Espaçamento interno ao redor do texto */
+}
+
+.ppetudo{
+  background-image: url("https://i.pinimg.com/originals/67/7f/52/677f5237dd7c37df5a99204a642f62fb.jpg");
+  padding: 10%;
+  padding-top: 20%;
+  width: auto;
+  height: 900px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-grow: 0; /* Permite que a lista ocupe o espaço disponível */
+  background-size: cover; /* Faz a imagem ocupar todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem dentro do contêiner */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+.ppetudo h1{
+  font-size: 4em; /* Tamanho grande do texto para destaque */
+  font-weight: 400; /* Negrito aplicado diretamente */
+  text-align: center; /* Centraliza o texto */
+  color: transparent; /* Torna o texto transparente para aplicar o gradiente */
+  font-weight: bold; /* Deixa o texto em negrito */
+  background: linear-gradient(135deg, #fffffe, #f3f2ef); /* Gradiente em tons vivos de amarelo */
+  -webkit-background-clip: text; /* Aplica o gradiente somente ao texto */
+  background-clip: text; /* Aplica o gradiente somente ao texto */
+  padding: 20px; /* Espaçamento interno ao redor do texto */
+
+
+}
 @media (max-width: 480px) {
   
   .cover-letter {

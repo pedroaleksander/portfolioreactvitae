@@ -20,7 +20,7 @@ function nav() {
           <li><a href="#hm">Humanas</a></li>
           <li><a href="#lg">Linguagens</a></li>
           <li><a href="#pp">PPE</a></li>
-          <li><a href="#pt">Primeiros Portfólio</a></li> 
+          <li><a href="#ex">Extras</a></li> 
           <li className="nav-icons">
           <a href="https://github.com/pedroaleksander" target="_blank" rel="noopener noreferrer">
             <img id="github" src={git} alt="GitHub" />

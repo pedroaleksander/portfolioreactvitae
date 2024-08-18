@@ -9,6 +9,8 @@ import Mátematica from  './estrutura/Materias/Matematica/Matematica'
 import Natureza from './estrutura/Materias/Natureza/Natureza'
 import Humanas from './estrutura/Materias/Humanas/Humanas'
 import Linguagens from './estrutura/Materias/Linguagens/Linguagens'
+import Ppe from './estrutura/Materias/ppe/Ppe'
+import Extras from './estrutura/Materias/extras/Extras'
 
 function App() {
   return (
@@ -43,12 +45,10 @@ function App() {
         <section id="lg">
         <Linguagens/>
           <section id="pp">
-          <h2>PPE</h2>
-          <p>Em construção, volte mais tarde</p>
+          <Ppe/>
         </section>
-        <section id="pt">
-          <h2>Extras</h2>
-          <p>primeiros portfolios...</p>
+        <section id="ex">
+        < Extras/>
         </section>
       
         </section> 

@@ -33,9 +33,9 @@ const Materia4 = () => {
     <>
 
 
-    <div>
+    <div className='humanastudo'>
       <Filtro 
-        tituloPagina="Trabalhos de Mátematica"
+        tituloPagina="Trabalhos de Humanas"
         opcoesTrimestre={[
           { value: 'primeiro-trimestre', label: 'Primeiro Trimestre' },
           { value: 'segundo-trimestre', label: 'Segundo Trimestre' },

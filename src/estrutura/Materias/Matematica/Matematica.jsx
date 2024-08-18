@@ -12,8 +12,9 @@ const Materia1 = () => {
      
   ],
   'segundo-trimestre': [
-    { id: 'T2-1', titulo: 'Filme Quebrando a Banca', imagem: filme,  link: 'https://docs.google.com/document/d/16eJzODcblEVyM-M_fhEyH48Q3nBTnAr4O3sUDr3Vk8M/edit?usp=sharing'  },
-    { id: 'T2-2',  imagem: banco, link: 'https://docs.google.com/document/d/1NrpZcFBgMZX-gJxV0BuTr6V-cbaaIehkUXMp_n--QxU/edit?usp=sharing', titulo: 'Floriópolis'},
+    { id: 'T2-1', titulo: 'Filme Quebrando a Banca, Assistimos ao filme *Quebrando a Banca* e respondemos a perguntas sobre o enredo. Em seguida, desenvolvi uma história utilizando a equação exponencial como tema para um caçador de fenômenos. Essa atividade foi uma forma prática e criativa de aplicar conceitos matemáticos, desenvolvendo a competência C5 e as habilidades H31 e H32.', imagem: filme,  link: 'https://docs.google.com/document/d/16eJzODcblEVyM-M_fhEyH48Q3nBTnAr4O3sUDr3Vk8M/edit?usp=sharing'  },
+    { id: 'T2-2',  imagem: banco, link: 'https://docs.google.com/document/d/1NrpZcFBgMZX-gJxV0BuTr6V-cbaaIehkUXMp_n--QxU/edit?usp=sharing', titulo: 'Floriópolis. Recriamos o jogo Banco Imobiliário com novas mecânicas e elementos matemáticos, e apresentamos a nova versão para a turma. A atividade envolveu o desenvolvimento de novas regras e a integração de conceitos matemáticos, promovendo a aplicação prática dos conhecimentos adquiridos. Competência e habilidades trabalhadas: C e H.'},
+  
   ],
   'terceiro-trimestre': [
    
@@ -26,7 +27,7 @@ const Materia1 = () => {
     <>
 
 
-    <div>
+    <div className='matetaticatudo'>
       <Filtro 
         tituloPagina="Trabalhos de Mátematica"
         opcoesTrimestre={[
