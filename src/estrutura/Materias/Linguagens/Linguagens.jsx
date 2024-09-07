@@ -16,8 +16,8 @@ const Materia3 = () => {
   ],
   'segundo-trimestre': [
     { id: 'T2-1', titulo:'Redação Online. Competência 1; = 120pts, Competência 2; 160pts, Competência 3; 120pts, Competência 4; 160pts, Competência 5; 120pts, total: 680pts', imagem: redacao, link: '' },
-    { id: 'T2-1', titulo:'Poema. Competência 1; = 120pts, Competência 2; 160pts, Competência 3; 120pts, Competência 4; 160pts, Competência 5; 120pts, total: 680pts', imagem: poema, link: 'https://docs.google.com/document/d/11335skz9Fpz_1RTFaR2gLgFKDnA5u5dwrq-cP5971j4/edit?usp=sharing' },
-    { id: 'T2-1', titulo:'Maquete. Competência 1; = 120pts, Competência 2; 160pts, Competência 3; 120pts, Competência 4; 160pts, Competência 5; 120pts, total: 680pts', imagem: maquete, link: null },
+    { id: 'T2-1', titulo:'Poema. criamos um poe em sala de aula, abordando conhecimentos linguisticos junto a criatividade para combinar a rima.', imagem: poema, link: 'https://docs.google.com/document/d/11335skz9Fpz_1RTFaR2gLgFKDnA5u5dwrq-cP5971j4/edit?usp=sharing' },
+    { id: 'T2-1', titulo:'Maquete. Em grupo, criamos uma maquete da cena descrita no livro.', imagem: maquete, link: null },
    
   ],
   'terceiro-trimestre': [
