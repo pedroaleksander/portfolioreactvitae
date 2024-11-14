@@ -27,7 +27,11 @@ const Materia3 = () => {
    
   ],
   'terceiro-trimestre': [
-    
+    { id: 'T3-1', titulo:'Relações Ecologicas. (comentario)', imagem: ecologia, link: '' }, 
+    { id: 'T3-2', titulo:'Desequilíbrio Ambiental. (comentario)', imagem: copinho, link: 'https://www.canva.com/design/DAGQcmkFCJo/3Fb6-QIBXhTidnESwYx64w/view?utm_content=DAGQcmkFCJo&utm_campaign=designshare&utm_medium=link&utm_source=editor' }, 
+    { id: 'T3-3', titulo:'Emissões Radioativas(comentario)', imagem: mapamental, link: 'https://www.canva.com/design/DAGPInLTbl8/5UIv32ziQSP11d8Tamfqtg/view?utm_content=DAGPInLTbl8&utm_campaign=designshare&utm_medium=link&utm_source=editor' }, 
+    { id: 'T3-4', titulo:'Decaimento Radioativo. (comentario) C5 e H24, 25, 26, H27 e H28.', imagem: pesquisa, link: 'https://www.canva.com/design/DAGPy4gxsuo/SDKQeAZDv1N44WkFLq7PsQ/view?utm_content=DAGPy4gxsuo&utm_campaign=designshare&utm_medium=link&utm_source=editor' },
+    { id: 'T3-5', titulo:'Lista ENEM - Biotecnologia. (comentario)', imagem: pesquisa, link: 'https://docs.google.com/document/d/1vv7ZHrPCPKjhJNWkMEgekfnzYAmC2TjsVOcepvSgSNM/edit?usp=sharing' },
 
     ],
   };

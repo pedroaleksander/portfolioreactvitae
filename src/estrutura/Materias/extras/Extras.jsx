@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Extras = () => {
   const handleClick = () => {
     window.open('https://docs.google.com/presentation/d/1BAjJCVhm8od7qvWS772IKSEruvbrIDVkM2TxzfBV1rw/edit?usp=sharing', '_blank');
@@ -15,13 +14,14 @@ const Extras = () => {
   };
 
   return (
-    <>
+    <div className="container-main">
       <div className="extrastudo">
+        <h1>Extras</h1>
         <button onClick={handleClick}>Portfolio 1°</button>
         <button onClick={handleClick2}>Portfolio 2°</button>
         <button onClick={handleClick3}>Certificados</button>
       </div>
-    </>
+    </div>
   );
 };
 

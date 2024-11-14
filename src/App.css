@@ -1,10 +1,4 @@
-
-body{
-  width: 100%;
-  background-color: #000000; /* Cor de funde e neutra para o contêiner */
-  display: block;
-  
-}/* src/components/Header.css */
+/* src/components/Header.css */
  .App{
   width:100vw;
   height: auto;
@@ -614,6 +608,48 @@ font-size: 4em; /* Tamanho maior para dar ênfase */
   }
 }
 
+body {
+  width: 100%;
+  background-color: #000000; /* Cor de fundo neutra para o contêiner */
+  display: block;
+}
 
+.container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #ede1d3;
+}
 
+.extrastudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espaçamento entre os botões */
+  margin: auto;
+  margin-top: 31px;
+}
 
+.extrastudo h1 {
+  margin-bottom: 40px;
+  font-size: 48px;
+  color: #333;
+}
+
+.extrastudo button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.extrastudo button:hover {
+  background-color: #45a049;
+}

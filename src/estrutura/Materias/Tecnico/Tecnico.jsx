@@ -36,11 +36,13 @@ const Materia2 = () => {
     { id: 'T2-5', titulo: 'Projeto Biblioteca, Em grupo, desenvolvemos uma biblioteca de banco de dados, estruturando suas funcionalidades para otimizar o gerenciamento e acesso aos dados. Durante essa atividade, apliquei a habilidade H.', imagem: analise,  link: ''  }, 
   ],
   'terceiro-trimestre': [
-    
-
-    ],
+    { id: 'T3-1', titulo: 'Comandos SQL (comentario)', imagem: kanban,  link: 'https://www.canva.com/design/DAGWaV6S3I0/dq5JF4VEEVmwo9j919B3Bw/view?utm_content=DAGWaV6S3I0&utm_campaign=designshare&utm_medium=link&utm_source=editor'  },               
+    { id: 'T3-2', titulo: 'Left e Right JOIN (comentario)', imagem: kanban,  link: 'https://docs.google.com/document/d/1_F3bMdzanyxx4xfZM_5HItZIitXq96Da_usSnI-OcmA/edit?usp=sharing'  },
+    { id: 'T3-3', titulo: 'Aprendendo Express (comentario)', imagem: kanban,  link: 'https://docs.google.com/document/d/1IMcdRWXLcTn7lA5UdpAnWPUB12uMJdnKxd1Tlx_qd6E/edit?usp=sharing'  },
+    { id: 'T3-4', titulo: 'Jogo da Velha (comentario)', imagem: kanban,  link: ''  },
+    { id: 'T3-5', titulo: 'Apresentação - Teste de Sistemas (comentario)', imagem: kanban,  link: ''  },
+  ],
   };
-  
  
   return (
     <>
