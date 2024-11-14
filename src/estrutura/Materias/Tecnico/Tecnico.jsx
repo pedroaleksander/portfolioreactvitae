@@ -10,7 +10,7 @@ import regras from '../../img/regras.jpg'
 import api from '../../img/api.png'
 import apicep from '../../img/apicep.png'
 import calculadora from '../../img/calculadora.png'
-import analise from '../../img/analise.png'
+import analise from '../../img/analise.png'  
 
 
 

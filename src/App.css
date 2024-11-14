@@ -203,7 +203,7 @@ object-fit: cover; /* Garante que a imagem preencha o container */
 .cover-letter-container {
   display: flex; /* Utiliza flexbox para alinhar o conteúdo centralmente */
   width: 50%;
-  height: 90%;
+
   margin-top: 5%;
   justify-content: center; /* Centraliza o conteúdo horizontalmente */
   align-items: center; /* Centraliza o conteúdo verticalmente */
@@ -220,7 +220,7 @@ object-fit: cover; /* Garante que a imagem preencha o container */
   width: 100%;
   color: #333333; /* Define a cor do texto */
   font-family: 'Times New Roman', serif; /* Define uma fonte serifada para um toque mais formal */
-  line-height: 1.7; /* Define a altura da linha para melhor legibilidade e aparência formal */
+  line-height: 1.2; /* Define a altura da linha para melhor legibilidade e aparência formal */
   box-sizing: border-box; /* Inclui padding e borda na largura e altura totais do elemento */
   border-left: 5px solid #333; /* Adiciona uma borda à esquerda com uma cor de destaque azul */
   
