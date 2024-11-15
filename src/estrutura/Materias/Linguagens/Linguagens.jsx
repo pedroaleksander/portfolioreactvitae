@@ -6,6 +6,11 @@ import revista from '../../img/revista.png'
 import redacao from '../../img/redacao.png'
 import poema from '../../img/poema.png'
 import maquete from '../../img/maquete.png'
+import redacao2 from '../../img/redacao2.png'
+import crianca from '../../img/crianca.png'
+import tropicalia from '../../img/tropicalia.png'
+import modernismo from '../../img/modernismo.png'
+
 const Materia3 = () => {
   const trabalhos = {
     'primeiro-trimestre': [
@@ -21,7 +26,10 @@ const Materia3 = () => {
    
   ],
   'terceiro-trimestre': [
-    
+    { id: 'T3-1', titulo:'(Em progresso)', imagem: redacao2, link: '' },
+    { id: 'T3-2', titulo:'.', imagem: modernismo, link: '' },
+    { id: 'T3-3', titulo:'Tropicalismo (Em progresso).', imagem: tropicalia, link: '' },
+    { id: 'T3-4', titulo:'Foto Criança', imagem: crianca, link: null },
 
     ],
   };

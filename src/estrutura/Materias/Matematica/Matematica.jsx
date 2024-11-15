@@ -3,6 +3,7 @@ import Filtro from '../../Filtro'
 import banco from '../../img/banco.png'
 import filme from '../../img/filme.png'
 import tesouro from '../../img/tesouro.png'
+import platao from '../../img/platao.png'
 
 
 const Materia1 = () => {
@@ -17,7 +18,7 @@ const Materia1 = () => {
   
   ],
   'terceiro-trimestre': [
-   
+    { id: 'T3-1', titulo: 'Sólidos de Platão. Em grupo, montamos sólidos de platão com palitos de churrasco e jujubas.', imagem: platao,  link: ''  },
 
     ],
   };

@@ -5,6 +5,8 @@ import zim from '../../img/zim.png'
 import filme1917 from '../../img/filme1917.png'
 import linhadotempo from '../../img/linhadotempo.png'
 import jornal from '../../img/jornal.png'
+import guerrafria from '../../img/guerrafria.png'
+import eravargas from '../../img/eravargas.png'
 
 const Materia4 = () => {
   const trabalhos = {
@@ -19,11 +21,11 @@ const Materia4 = () => {
     { id: 'T2-2', imagem: jornal, titulo: 'Jornal a Grande Guerra, Elaborei um jornal fictício sobre Berlim após a destruição da Alemanha na Grande Guerra, abordando a situação e a reconstrução do país. A atividade foi divertida e educativa, pois exigiu uma pesquisa aprofundada sobre o tema. Desenvolvi a competência C2 e as habilidades H10, C6 e H39.', link: 'https://www.canva.com/design/DAGB1gScVSE/UwszC0hYPvxJn8FEw0ZGCQ/edit?utm_content=DAGB1gScVSE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'  },
     
 
-
     
 ],
   'terceiro-trimestre': [
-   
+    { id: 'T2-1', imagem: guerrafria, titulo: 'Guerra Fria. Criamos uma apresentação sobre a Guerra Fria, explicando a complexidade de conflitos, disputas, guerras, acordos e sentimentos relacionados à Guerra Fria.', link: 'https://www.canva.com/design/DAGSPib5DgI/F_KGkDR08Vfwm8jby61dHg/edit?utm_content=DAGSPib5DgI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' },
+    { id: 'T2-2', imagem: eravargas, titulo: 'Era Vargas. Retomamos as principais características da República Velha e do período oligárquico.', link: 'https://create.piktochart.com/output/89af61fa90a4-republlica-oligarquica-x-era-vargas?authuser=0'  },
 
     ],
   };
