@@ -45,7 +45,7 @@ const Materia2 = () => {
     { id: 'T3-1', titulo: 'Comandos SQL. Criamos uma relação de clientes e pedidos em SQl no pgadmin.', imagem: comandosql,  link: 'https://www.canva.com/design/DAGWaV6S3I0/dq5JF4VEEVmwo9j919B3Bw/view?utm_content=DAGWaV6S3I0&utm_campaign=designshare&utm_medium=link&utm_source=editor'  },               
     { id: 'T3-2', titulo: 'Left e Right JOIN. Criamos um sistema de pedidos de uma loja e usamos left e right join para manipular tabelas.', imagem: join,  link: 'https://docs.google.com/document/d/1_F3bMdzanyxx4xfZM_5HItZIitXq96Da_usSnI-OcmA/edit?usp=sharing'  },
     { id: 'T3-3', titulo: 'Aprendendo Express. Usamos express para aprender rotas no node.js.', imagem: express,  link: 'https://docs.google.com/document/d/1IMcdRWXLcTn7lA5UdpAnWPUB12uMJdnKxd1Tlx_qd6E/edit?usp=sharing'  },
-    { id: 'T3-4', titulo: 'Jogo da Velha. Programamos um jogo da velha em node.', imagem: jogodavelha,  link: ''  },
+    { id: 'T3-4', titulo: 'Jogo da Velha. Programamos um jogo da velha em node.', imagem: jogodavelha,  link: 'https://github.com/pedroaleksander/jogo-da-velha'  },
     { id: 'T3-5', titulo: 'Apresentação - Teste de Sistemas. Criei uma apresentação de tudo que vimos na matéria de Teste de Sistemas.', imagem: testes,  link: ''  },
   ],
   };
