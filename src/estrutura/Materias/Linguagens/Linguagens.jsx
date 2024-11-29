@@ -28,9 +28,8 @@ const Materia3 = () => {
   'terceiro-trimestre': [
     { id: 'T3-1', titulo:'Redação 3º Trimestre', imagem: redacao2, link: 'https://www.canva.com/design/DAGXiLFjG5s/yjZBfIJ1cowT9tOCQVWJkA/view?utm_content=DAGXiLFjG5s&utm_campaign=designshare&utm_medium=link&utm_source=editor' },
     { id: 'T3-2', titulo:'Atividade Pré-Modernismo.', imagem: modernismo, link: 'https://www.canva.com/design/DAF-EkmY-c4/85LWSLLVjbdYGHM-0XBTGg/view?utm_content=DAF-EkmY-c4&utm_campaign=designshare&utm_medium=link&utm_source=editor' },
-    { id: 'T3-3', titulo:'Tropicalismo.', imagem: tropicalia, link: 'https://revistaliterarialinguagens.my.canva.site/' },
+    { id: 'T3-3', titulo:'Tropicalismo.', imagem: tropicalia, link: 'https://sites.google.com/estudante.sesisenai.org.br/revistaliteraria?usp=sharing' },
     { id: 'T3-4', titulo:'Foto Criança', imagem: crianca, link: 'https://www.canva.com/design/DAGXiLviDo4/mAlZuEhLwHuEPJWXR7_D8Q/view?utm_content=DAGXiLviDo4&utm_campaign=designshare&utm_medium=link&utm_source=editor' },
-
     ],
   };
   
